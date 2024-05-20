@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS ship (
+    id SERIAL PRIMARY KEY NOT NULL,
+    hull TEXT NOT NULL,
+    captain TEXT NOT NULL
+)

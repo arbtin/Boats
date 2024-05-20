@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  postgres-db:
+    container_name: boat-app
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: dev
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: boat_app
+    ports:
+      - "5434:5432"

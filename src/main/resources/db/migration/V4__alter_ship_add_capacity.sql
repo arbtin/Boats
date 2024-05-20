@@ -1,0 +1,1 @@
+ALTER TABLE ship ADD COLUMN capacity INT;

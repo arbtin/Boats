@@ -1,0 +1,2 @@
+ALTER TABLE SHIP ADD COLUMN operator_id INT;
+ALTER TABLE SHIP ADD CONSTRAINT operator_fk FOREIGN KEY (operator_id) REFERENCES operator (id);

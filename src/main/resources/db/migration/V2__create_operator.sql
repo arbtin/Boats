@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS operator (
+    id SERIAL PRIMARY KEY NOT NULL,
+    name TEXT NOT NULL
+);
